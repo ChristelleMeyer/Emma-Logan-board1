@@ -37,9 +37,10 @@ let newGame = document.getElementById(id="new-game")
 function resetScore(){
     
     guestScore.innerHTML = 0
+    gscore = 0
     homeScore.innerHTML = 0
     hscore = 0
-    gscore = 0
+    
     
 }
 
